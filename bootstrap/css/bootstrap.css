@@ -88,8 +88,14 @@ sub {
   bottom: -0.25em;
 }
 img {
-  border: 0;
+  border: 1px solid #d2d2d2;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.bordernone{ border: none;}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -368,7 +374,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 .h1,
 .h2,
@@ -381,6 +386,11 @@ h6,
   line-height: 1.1;
   color: inherit;
 }
+h5{font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  font-style: italic;
+  color: inherit;}
 h1 small,
 h2 small,
 h3 small,
